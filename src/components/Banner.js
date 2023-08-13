@@ -1,4 +1,4 @@
-const Banner = ({}) => {
+ const Banner = () => {
     return (
         <div>
             <header>Orbit Report</header>
