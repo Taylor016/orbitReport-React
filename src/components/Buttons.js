@@ -2,7 +2,7 @@ import satData from "./satData";
 import style from "./styling.css";
 
 
-const Buttons = ({filterByType, setSat, displaySats}) => {
+const Buttons = ({displaySats, setSat, filterByType}) => {
   return (
     <div className = "flex-container">
       {displaySats.map((sat, id) => {
